@@ -1,0 +1,278 @@
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    size: 100px;
+  }
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: aliceblue;
+    /* background-color: brown; */
+    margin-bottom: 15px;
+  }
+
+  .Outline {
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: blue; */
+    /* justify-content:space-evenly; */
+    align-items: center;
+    /* padding: 40px; */
+    margin: 25px;
+  }
+
+
+  .header {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+  }
+
+
+.menu {
+display: flex;
+flex-flow: row nowrap;
+align-items:center;
+align-content:center ;
+width: 100%;
+
+}
+
+.menuListe {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  /* background-color: rgb(153, 142, 138); */
+  width: 40%;
+  margin: 10px;
+}
+
+.pMenuText {
+  font-size: 8px;
+  color: aliceblue;
+}
+
+
+
+.logoText {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: burlywood; */
+}
+
+#ironHackLogo {
+  width: 15px;
+  height: 15px;
+  /* background-color: burlywood; */
+  margin-right: 5px;
+}
+
+.pLogoText {
+  font-size: 12px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+
+.SP {
+  display: flex;
+  width: 30%;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: right; 
+}
+
+.signUp {
+  display: flex;
+  flex-flow: row nowrap;
+  border-radius: 15px;
+  background-color: aliceblue;
+  width: 80px;
+  height: 30px;
+  justify-content: center;
+  align-content: center;
+  align-items: center; 
+  margin-right: 12px;
+}
+
+.pSignUp {
+  color: blueviolet;
+  text-align: center;
+  font-size: 10px;
+  font-weight:bolder;
+}
+
+
+
+
+
+  .AI {
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    width: 100%; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: blueviolet;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+ .pAI {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-bottom: 30px;
+ }
+
+
+ .container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+
+ .USEAI {
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 10px;
+  background-color: blueviolet;
+  border: 3px solid  rgb(155, 74, 230);
+  width: 80px;
+  padding: 10px;
+}
+
+ .TenK {
+  color:aliceblue;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+ }
+
+ .USE {
+  color:aliceblue;
+  text-align: left;
+  font-size: 8px;
+ }
+
+  .L {
+    width: 50%;
+    margin-left: 15px;
+  }
+
+    .TL {
+      display: flex;
+      flex-flow: row nowrap;
+      position: relative;
+      font-size: 12px;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+
+
+    .try {
+      display: flex;
+      flex-flow: row nowrap;
+      border-radius: 15px;
+      background-color: aliceblue;
+      width: 120px;
+      height: 30px;
+      justify-content: center;
+      align-content: center;
+      align-items: center; 
+
+    }
+      .pTry {
+        color: blueviolet;
+        text-align: center;
+        font-weight: bold;
+      }
+
+
+    .learn {
+      display: flex;
+      flex-flow: row nowrap;
+      /* background-color: rgb(255, 170, 254); */
+      width: 120px;
+      height: 30px;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left: 10px;
+    }
+
+      .pLearn {
+        text-align: center;
+        color: aliceblue;
+      }
+
+
+  .R {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center
+    width: 50%;
+    margin: 20px;
+  }
+
+   #imgIH {
+    width: 80%;
+  }
+
+
+  .S {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: aliceblue;
+
+  }
+
+  .Meet {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .pMeetH {
+    /* display: flex; */
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .pMeet {
+    /* display: flex; */
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+  }
