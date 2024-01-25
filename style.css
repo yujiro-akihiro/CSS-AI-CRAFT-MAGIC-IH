@@ -8,17 +8,13 @@ h1 {
     font-size: 40px;
     font-weight: bolder;
     color: aliceblue;
-    /* background-color: brown; */
     margin-bottom: 15px;
   }
 
   .Outline {
     display: flex;
     flex-flow: column nowrap;
-    /* background-color: blue; */
-    /* justify-content:space-evenly; */
     align-items: center;
-    /* padding: 40px; */
     margin: 25px;
   }
 
@@ -47,7 +43,6 @@ width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  /* background-color: rgb(153, 142, 138); */
   width: 40%;
   margin: 10px;
 }
@@ -65,13 +60,11 @@ width: 100%;
   width: 30%;
   justify-content: center;
   align-items: center;
-  /* background-color: burlywood; */
 }
 
 #ironHackLogo {
   width: 15px;
   height: 15px;
-  /* background-color: burlywood; */
   margin-right: 5px;
 }
 
@@ -205,7 +198,6 @@ width: 100%;
     .learn {
       display: flex;
       flex-flow: row nowrap;
-      /* background-color: rgb(255, 170, 254); */
       width: 120px;
       height: 30px;
       align-content: center;
@@ -228,7 +220,7 @@ width: 100%;
     margin: 20px;
   }
 
-   #imgIH {
+  #imgIH {
     width: 80%;
   }
 
@@ -258,7 +250,6 @@ width: 100%;
   }
 
   .pMeetH {
-    /* display: flex; */
     background-color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
@@ -268,7 +259,6 @@ width: 100%;
   }
 
   .pMeet {
-    /* display: flex; */
     background-color: rgb(255, 255, 255);
     width: 80%;
     text-align: center;
